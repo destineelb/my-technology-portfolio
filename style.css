@@ -1,0 +1,160 @@
+
+/* My Milestone 2 Portfolio Stylesheet */
+
+/* Whole Website */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #FFD6E7;
+    text-align: center;
+    padding: 32px 16px;
+}
+
+/* Main Title */
+h1 {
+    color: #C13570;
+    font-family: "Pacifico", cursive;
+    font-size: 36px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 16px;
+    background-color: #E0E0E0;
+}
+
+nav a {
+    color: #C13570;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+/* Sections */
+section {
+    background-color: #FFFFFF;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+/* Section Headings */
+h2 {
+    color: #C13570;
+    font-family: "Pacifico", cursive;
+}
+
+h3 {
+    color: #C13570;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Class Selector */
+.pink-box {
+    background-color: #FFD6E7;
+}
+
+/* ID Selector */
+#welcome {
+    color: #C13570;
+}
+
+/* Flexbox Cards */
+.card-container {
+    display: flex;
+    gap: 24px;
+}
+
+/* Individual Cards */
+.card {
+    background-color: #FFD6E7;
+    border: 2px solid #C13570;
+    border-radius: 8px;
+    padding: 24px;
+    flex: 1;
+    min-width: 0;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #E0E0E0;
+    text-align: center;
+    padding: 24px;
+}
+
+/* Tablet Screens */
+@media (max-width: 768px) {
+
+    main {
+        padding: 16px;
+    }
+
+    .card-container {
+        gap: 16px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+/* Mobile Screens */
+@media (max-width: 480px) {
+
+    header {
+        padding: 24px 16px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 16px;
+    }
+}
