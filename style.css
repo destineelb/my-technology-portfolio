@@ -22,7 +22,7 @@ header {
 
 /* Main Title */
 h1 {
-    color: #C13570;
+    color: #9d2458;
     font-family: "Pacifico", cursive;
     font-size: 36px;
 }
@@ -37,7 +37,7 @@ nav {
 }
 
 nav a {
-    color: #C13570;
+    color: #9d2458;
     text-decoration: none;
     font-weight: bold;
 }
@@ -64,12 +64,12 @@ section {
 
 /* Section Headings */
 h2 {
-    color: #C13570;
+    color: #9d2458;
     font-family: "Pacifico", cursive;
 }
 
 h3 {
-    color: #C13570;
+    color: #9d2458;
 }
 
 /* Paragraphs */
@@ -85,7 +85,7 @@ p {
 
 /* ID Selector */
 #welcome {
-    color: #C13570;
+    color: #9d2458;
 }
 
 /* Flexbox Cards */
