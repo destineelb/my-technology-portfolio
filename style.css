@@ -1,4 +1,12 @@
 
+/* Cutie Pop Font */
+@font-face {
+    font-family: "Cutie Pop";
+    src: url("CutiePop.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* My Milestone 2 Portfolio Stylesheet */
 
 /* Whole Website */
@@ -9,7 +17,7 @@
 body {
     background-color: #FFFFFF;
     color: #333333;
-    font-family: "Nunito", sans-serif;
+    font-family: "Cutie Pop", cursive;
     margin: 0;
 }
 
@@ -23,7 +31,7 @@ header {
 /* Main Title */
 h1 {
     color: #9d2458;
-    font-family: "Pacifico", cursive;
+    font-family: "Cutie Pop", cursive;
     font-size: 36px;
 }
 
@@ -65,7 +73,7 @@ section {
 /* Section Headings */
 h2 {
     color: #9d2458;
-    font-family: "Pacifico", cursive;
+    font-family: "Cutie Pop", cursive;
 }
 
 h3 {
@@ -157,4 +165,83 @@ footer {
     section {
         padding: 16px;
     }
+}
+
+
+
+/* Accessible Contact Form */
+.contact-section {
+    background-color: #FFF4F8;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #9D2458;
+    border-radius: 6px;
+    font: inherit;
+}
+
+fieldset {
+    border: 2px solid #9D2458;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 16px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+fieldset label {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #9D2458;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #75173E;
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #333333;
+    outline-offset: 3px;
+}
+
+.error-message {
+    display: block;
+    color: #9D2458;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+[aria-invalid="true"] {
+    border-color: #9D2458;
+}
+
+#form-status {
+    font-weight: bold;
 }
